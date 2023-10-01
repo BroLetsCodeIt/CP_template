@@ -1,6 +1,9 @@
+---
+marp : true
+---
+
 # CP_template
-Competitive Coding Template
-<br>
+```cpp
 
 // I am using c++ gcc 11.2.0       
 // X % 2^k ===> X & ((1<<k)-1)
@@ -392,3 +395,4 @@ int main(){
 //splay
 //treap
 //matrixexpo
+```
