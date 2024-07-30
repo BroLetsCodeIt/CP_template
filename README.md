@@ -396,3 +396,86 @@ int main(){
 //treap
 //matrixexpo
 ```
+
+```cpp
+
+// YouTube : kamlesh kaparvena        
+#include <iostream>
+#include <ext/pb_ds/assoc_container.hpp>
+#include <ext/pb_ds/tree_policy.hpp>
+#include <cstdio>
+#include <vector>
+#include <algorithm>
+#include <string>
+#include <ctype.h>
+#include <queue>
+#include <cstring>  //memset
+#include <set>
+#include <bitset>
+#include <map>
+#include <chrono>
+#include <random>
+#include <unordered_map>
+#include <stdio.h>
+#include <cassert>
+#include <climits>
+#include <cmath>
+#include <complex>
+#include <functional>
+#include <iomanip>
+#include <array>
+#include <numeric>    //iota
+
+using namespace std;
+using namespace __gnu_pbds;
+
+#define int long long 
+#define endl "\n"
+#define print(x) for(auto I : x){cout << I << " " ;} cout << endl;
+#define printt(n,m,arr) for(int i = 0 ; i < n ; i++){for(int j = 0 ;j < m ; j++){ cout << arr[i][j] << " ";} cout << endl; } cout << endl;
+#define take(v) for(auto& x : v) cin >> x ;
+#define cout(ans) cout << ans << endl;
+
+
+
+// this is used for calculation of neighbours; up , left , down , right ;
+int dx[] = {-1 , 0 , +1 , 0} ; 
+int dy[] = {0 , -1 , 0 , +1} ; 
+
+ // Check if the new coordinates are within grid bounds
+inline bool in(int x , int y , int rows , int cols){
+    return (x < rows && x >= 0 && y < cols && y >= 0 ) ;
+    // x should be less than row and >= zero 
+    // y should be less than col and >= zero
+}
+typedef tree<int, null_type, less<int>, rb_tree_tag,tree_order_statistics_node_update> ordered_set;
+
+// p.order_of_key(x); // number of elements smaller than x or index of x ;
+// p.find_by_order(x); // element present at xth index.
+
+//____________________________functions_____________________________________________
+string convert_to_string(int x){ string s = to_string(x); return s; }
+int convert_to_int(string s){ stringstream geek ; geek << s ; int x = 0 ; geek >> x ; return x;}
+
+
+void solve(){
+
+
+   
+     
+
+
+}
+
+signed main(){
+    ios_base::sync_with_stdio(false);
+    cin.tie(nullptr); cout.tie(nullptr); 
+    int testcases;
+    testcases = 1;
+    cin >> testcases;
+    while(testcases--){
+        solve();
+    }
+    return 0 ;
+}
+```
